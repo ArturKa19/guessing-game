@@ -9,6 +9,7 @@ describe('#guess', () => {
         game.setRange(0, 4048)
 
         let result = game.guess();
+
         game.lower();
         result = game.guess();
         game.lower();
